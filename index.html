@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div ng-app="hadi" ng-controller="AppCtrl">
+    <thingy ng-hide="data.isReady">
+        Show this before the data is ready
+    </thingy>
+    <thingy ng-show="data.isReady">
+        This is content to show when the data is ready
+    </thingy>
+</div>
+<!-- Using angular v1.1.5 -->
+<script type="text/javascript" src="angular.js"></script>
+<script type="text/javascript" src="angular-resource.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
